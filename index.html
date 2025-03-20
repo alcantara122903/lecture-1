@@ -3,9 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My First Page</title>
+    <link rel="icon" href="uploads/bg.jpg" type="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <h1>Hello World</h1>
+    </header>
+    <main>
+        <h2>Subheading 1</h2>
+        <h3>Subheading 2</h3>
+        <h4>Subheading 3</h4>
+        <h5>Subheading 4</h5>
+        <p>inf-231.</p>
+        <div>
+            <a href="#">Links are</a>
+            <a href="#">inline elements,</a>
+            <a href="#">so they fit side-by-side</a>
+            <a href="test.html">Go to Test Page</a>
+        </div>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+            <li>Item 5</li>
+        </ul>
+        <img src="uploads/spiderman.jpeg" alt="Spiderman" width="300">
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/FPV8gCovtWg" 
+            title="YouTube video player" 
+            allowfullscreen>
+        </iframe>
+        <p style="background-color: gray; padding: 10px; border-radius: 5px;">
+            “Everyone has a part of themselves they hide.”
+        </p>
+    </main>
+    <footer>
+        <p>&copy; Alcantara Ivan.</p>
+    </footer>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background-image: url('uploads/spiderman.jpeg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'Poppins', Arial, sans-serif;
+            color: #f0f0f0;
+            text-align: center;
+            line-height: 1.6;
+            letter-spacing: 0.5px;
+            word-spacing: 2px; 
+        }
+        h1 { color: #ff4500; margin: 10px 0; font-style: normal; letter-spacing: 1px; word-spacing: 3px; }
+        h2 { color: #ff4500; margin: 10px 0; font-style: italic; letter-spacing: 0.8px; word-spacing: 2.5px; }
+        h3, h4, h5 { color: #ff4500; margin: 10px 0; font-style: oblique; letter-spacing: 0.8px; word-spacing: 2.5px; }
+        p { color: #87ceeb; margin: 10px 0; font-style: normal; line-height: 1.8; letter-spacing: 0.6px; word-spacing: 2px; }
+        a { color: #ffd700; text-decoration: none; margin: 0 5px; font-style: italic; letter-spacing: 0.5px; word-spacing: 1.5px; }
+        a[href="test.html"] {
+            color: black; 
+        }
+        ul {
+            list-style-type: square;
+            margin: 20px auto;
+            padding: 0;
+            width: fit-content;
+            text-align: left;
+        }
+        li { color: #f0f0f0; margin: 5px 0; font-style: oblique; letter-spacing: 0.4px; word-spacing: 1.5px; }
+        img {
+            display: block;
+            margin: 20px auto;
+            border: 2px solid #ff4500;
+            border-radius: 10px;
+        }
+        iframe { display: block; margin: 20px auto; border: none; }
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #f0f0f0;
+            font-style: italic;
+            letter-spacing: 0.5px;
+            word-spacing: 2px;
+        }
+    </style>
 </body>
 </html>
