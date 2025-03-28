@@ -1,42 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <header>
-        <h1 style="font-size: 2.5em;">Sample Website </h1>
-        <p>Welcome to My Simple Website</p>
-    </header>
-<nav>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Contact</a>
-</nav>    
-    </h1>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sample Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section>
-        <h2>About Us</h2>
-        <p>This is the about section of our website.</p>
-    </section>
-    <section>
-        <h2>Latest News</h2>
-        <p>This is the latest news article.</p>
-    </section>
-    <aside>
-        <h2>Related Links</h2>
-        <ul>
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-        </ul>
-    </aside>
+    <header>
+        <h1>Sample Website</h1>
+        <p>Welcome to My Simple Website</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <main>
+        <div class="grid-container">
+            <section class="main-content">
+                <div class="flex-row">
+                    <div class="card">
+                        <h2>Home</h2>
+                        <p>This is the home section of our website.</p>
+                    </div>
+                    <div class="card">
+                        <h2>About Us</h2>
+                        <p>This is the about section of our website.</p>
+                    </div>
+                </div>
+                <div class="flex-row">
+                    <aside class="box">
+                        <h2>Related Links</h2>
+                        <ul>
+                            <li><a href="#">Link 1</a></li>
+                            <li><a href="#">Link 2</a></li>
+                            <li><a href="#">Link 3</a></li>
+                        </ul>
+                    </aside>
+                    <div class="box">
+                        <h2>RAbout Us</h2>
+                        <p>This is the about section of our website.</p>
+                        <div style="margin-top: 20px;"></div> <!-- Add spacing -->
+                        <h2>RLatest News</h2>
+                        <p>This is the latest news article.</p>
+                    </div>
+                </div>
+                <div class="flex-row">
+                    <aside class="box">
+                        <h2>Home1</h2>
+                        <p>This is the home section of our website.</p>
+                    </aside>
+                    <aside class="box">
+                        <h2>Home under</h2>
+                        <p>This is the home section of our website.</p>
+                    </aside>
+                </div>
+            </section>
+        </div>
+    </main>
     <footer>
-        <p>&copy; 2025 Alcantara Company &bull; All rights reserved&reg;</p>
-        <p>Made with &hearts; by jeiSquared</p>
+        <p>&copy; 2025 Your Company Name &bull; All Rights Reserved &reg;</p>
+        <p>Made with &hearts; by ivanxd</p>
     </footer>
 </body>
 </html>
